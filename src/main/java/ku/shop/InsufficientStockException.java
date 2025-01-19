@@ -1,8 +1,8 @@
 package ku.shop;
 
-public class NotEnoughStockException extends Exception {
-    public NotEnoughStockException() {}
-    public NotEnoughStockException(String reason) {
+public class InsufficientStockException extends Exception {
+    public InsufficientStockException() {}
+    public InsufficientStockException(String reason) {
         super(reason);
     }
 }
